@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color:#40916C;
+    --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
+}
+
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+    margin: 0px;
+}
+
+
+
+
+.container {
+    padding: 6rem 1rem;
+}
+
+.centered-container {
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+   
+}
+
+
+.primary-link {
+    background-color:
+        var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;   
+    padding: 0.5rem;
+    margin-top: 2rem;
+    
+    
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 1.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    background-color: white;
+    margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+input{
+        font-weight: bold;
+        width: 55%;
+        padding: 0.8rem;
+        color: var(--primary-color);
+        border-radius: 1.5rem;
+        border: 1px solid var(--primary-color);
+        display: block;
+        max-width: 140px;
+        margin: auto;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+    margin-top: 0.5rem;
+    border-bottom-left-radius: 3rem;
+}
+
+
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+     text-align: center;
+     }
+
+
+
+.footer{
+    background-color: 
+    var(--primary-color);
+    padding: 2rem 2rem;
+    text-align: center;
+    color: white;
+    margin: 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+   
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+   
+}
+
