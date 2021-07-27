@@ -6,23 +6,31 @@
     --off-white: #F3F4F6;
 }
 
-body {
+*{
+    box-sizing: border-box;
     font-family: 'Open Sans',
         sans-serif;
-    margin: 0px;
 }
 
 
-
-
 .container {
-    padding: 6rem 1rem;
+    padding: 10rem 1rem 2rem 1rem;
 }
 
 .centered-container {
     max-width: 600px;
     margin: auto;
 
+}
+
+.hero-image {
+    width: 40%;
+    position: relative;
+}
+
+.hero-image img{
+    position: absolute;
+    top: 4rem;
 }
 
 .link {
@@ -88,19 +96,22 @@ input{
     color: white;
     padding: 1rem;
     margin: 2rem;
-    margin-top: 0.5rem;
+    margin-top: 0.5rem; 
     border-bottom-left-radius: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 450px;
 }
-
-
 
 .navigation .nav-pills {
     text-align: right;
 }
 
-.navigation .nav-brand {
+.nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
+    width: 40%;
+    padding: 4rem 6rem 0;
 }
 
 
@@ -121,11 +132,11 @@ input{
     color: var(--primary-color);
 }
 
-.section{
+#section{
     padding: 2rem;
 }
 
-.section h1{
+#section h1{
      text-align: center;
      }
 
@@ -155,5 +166,34 @@ input{
 .footer ul{
     padding-inline-start: 0px;
    
+}
+
+@media screen and (max-width: 768px){
+    .hero{
+        display: block;
+        min-height: 100px;
+    }
+    
+    .nav-brand{
+        width: 100%;
+        padding: 2rem;
+    }
+    .nav-brand h1{
+        line-height: 2rem;
+        margin-bottom: 0rem;
+        font-size: 2rem;
+        word-wrap: break-word;
+    }
+    
+    .hero-image{
+        position: static;
+        width: 100%;
+    }
+
+    .hero-image img{
+        position: static;
+        height: 400px; 
+    }
+
 }
 
