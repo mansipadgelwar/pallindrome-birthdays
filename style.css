@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 :root {
     --primary-color:#40916C;
-    --dark-gray: #6B7280;
+    --secondary-color: #181818;
     --off-white: #F3F4F6;
 }
 
 *{
     box-sizing: border-box;
-    font-family: 'Open Sans',
-        sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 
@@ -94,13 +93,11 @@ input{
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
-    margin: 2rem;
-    margin-top: 0.5rem; 
+    margin: 1rem;   
     border-bottom-left-radius: 3rem;
     display: flex;
     flex-wrap: wrap;
-    min-height: 450px;
+    min-height: 400px;
 }
 
 .navigation .nav-pills {
@@ -110,26 +107,13 @@ input{
 .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
-    width: 40%;
-    padding: 4rem 6rem 0;
+    width: 60%;
+    padding: 1rem 1rem 6rem 1.5rem;
 }
 
 
-.hero {
-    padding: 2rem;
-    padding-top: 5rem;
-}
-
-
-
-.hero .hero-heading {
-    padding-top: 1rem;
-    color: var(--dark-gray);
-    text-align: center;
-}
-
-.hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+.hero-heading .heading-inverted {
+    color: var(--secondary-color);
 }
 
 #section{
@@ -192,7 +176,7 @@ input{
 
     .hero-image img{
         position: static;
-        height: 400px; 
+        height: 300px; 
     }
 
 }
