@@ -165,6 +165,7 @@ input{
 
 .footer .list-item-inline{
     margin: 0.5rem;
+    
     padding: 0 2rem;
 }
 
@@ -175,6 +176,7 @@ input{
 
 .fa{
     font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 768px){
