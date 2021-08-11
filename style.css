@@ -70,13 +70,13 @@
 
 input{
         font-weight: bold;
-        width: 55%;
-        padding: 0.8rem;
+        width: 100%;
+        padding: 0.5rem;
         color: var(--primary-color);
         border-radius: 1.5rem;
         border: 1px solid var(--primary-color);
         display: block;
-        max-width: 140px;
+        max-width: 160px;
         margin: auto;
 }
 
@@ -139,7 +139,7 @@ input{
 
 #loading-img{
     display: none;
-    margin: auto;
+    margin-left: 6rem;
 }
 
 #output{
@@ -215,18 +215,23 @@ input{
         height: 300px; 
     }
 
+    #loading-img{
+        display: none;
+        margin: auto;
+    }
+
     
-input{
-    font-weight: bold;
-    width: 55%;
-    padding: 0.8rem;
-    color: var(--primary-color);
-    border-radius: 1.5rem;
-    border: 1px solid var(--primary-color);
-    display: block;
-    max-width: 140px;
-    margin: auto;
-}
+    input{
+        font-weight: bold;
+        width: 55%;
+        padding: 0.8rem;
+        color: var(--primary-color);
+        border-radius: 1.5rem;
+        border: 1px solid var(--primary-color);
+        display: block;
+        max-width: 140px;
+        margin: auto;
+    }
 
 }
 
