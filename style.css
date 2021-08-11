@@ -140,6 +140,7 @@ input{
 #loading-img{
     display: none;
     margin-left: 6rem;
+    padding: 0;
 }
 
 #output{
@@ -218,6 +219,7 @@ input{
     #loading-img{
         display: none;
         margin: auto;
+        padding: 0;
     }
 
     
