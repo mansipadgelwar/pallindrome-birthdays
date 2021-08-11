@@ -32,8 +32,6 @@ function clickHandler(e){
                 output.innerText = "The nearest pallindrome date is " + nextDate.day + "-" + nextDate.month + " - " + 
                                nextDate.year + ", you missed it by " + nextCtr + " days!";
             }
-            
-
         }
     }
 }
@@ -166,31 +164,28 @@ function getPreviousDate(date){
 
     var daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
-    if(month === 3){
-        if(isLeapYear(year)){
-            if(day === 1){
-                day = 29;
-                month--;
-            }
-        }
-        else{
-            if(day === 1){
-                day = 28;
-                month--;
-            }
-        }
-    }
-    else{
-        if(day === 1){
-            day = daysInMonth[month - 2];
+    if(day === 0){
             month--;
-        }
-    }
 
-    if(month === 1){
-        month = 12;
-        year--;
-    }
+            if(month === 0){
+                month = 12;
+                day = 31;
+                year--;
+            }
+            else if(month === 2){
+                if(isLeapYear(year)){
+                    day = 29;
+                }
+                else{
+                    day = 28;
+                }
+            }
+            else{
+                day = daysInMonth[month - 1];
+            }
+        }
+
+
 
     return {
         day: day,
