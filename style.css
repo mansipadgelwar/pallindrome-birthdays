@@ -137,6 +137,15 @@ input{
      display: block;
 }
 
+#loading-img{
+    display: none;
+    margin-left: 6rem;
+}
+
+#output{
+    margin-top: 2rem;
+    font-weight: bold;
+}
 
 .footer{
     background-color: 
