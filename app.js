@@ -8,7 +8,8 @@ btnSubmit.addEventListener("click", clickHandler);
 function clickHandler(e) {
     var birthDate = dateInput.value;
 
-    if (birthDate !== '') {
+    if (birthDate !== '')
+    {
         var listOfBirthDate = birthDate.split('-');
 
         var date = {
@@ -42,6 +43,9 @@ function clickHandler(e) {
             }
         }, 4500);
 
+    }
+    else{
+        output.innerText = "Please enter your birthdate!!"
     }
 }
 

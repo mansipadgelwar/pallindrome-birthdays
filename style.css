@@ -146,6 +146,7 @@ input{
 #output{
     margin-top: 2rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .footer{
