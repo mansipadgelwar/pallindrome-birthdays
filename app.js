@@ -6,6 +6,9 @@ var loader = document.querySelector("#loading-img");
 btnSubmit.addEventListener("click", clickHandler);
 
 function clickHandler(e) {
+    e.preventDefault();
+    loader.style.display = "none";
+    output.style.display = "none";
     var birthDate = dateInput.value;
 
     if (birthDate !== '')
@@ -45,6 +48,7 @@ function clickHandler(e) {
 
     }
     else{
+        output.style.display = "block";
         output.innerText = "Please enter your birthdate!!"
     }
 }
