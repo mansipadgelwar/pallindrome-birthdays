@@ -11,3 +11,4 @@ App which checks whether your birthday is a palindrome birthday & if not let's y
 - CSS
 - JavaScript
 
+Check out here: https://mansim-pallindrome-birthday.netlify.app/
